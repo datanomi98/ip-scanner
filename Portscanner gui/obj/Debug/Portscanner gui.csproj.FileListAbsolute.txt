@@ -1,0 +1,9 @@
+D:\koodit\portscanner\Portscanner gui\bin\Debug\Portscanner gui.exe.config
+D:\koodit\portscanner\Portscanner gui\bin\Debug\Portscanner gui.exe
+D:\koodit\portscanner\Portscanner gui\bin\Debug\Portscanner gui.pdb
+D:\koodit\portscanner\Portscanner gui\obj\Debug\Portscanner gui.csprojResolveAssemblyReference.cache
+D:\koodit\portscanner\Portscanner gui\obj\Debug\Portscanner_gui.Form1.resources
+D:\koodit\portscanner\Portscanner gui\obj\Debug\Portscanner_gui.Properties.Resources.resources
+D:\koodit\portscanner\Portscanner gui\obj\Debug\Portscanner gui.csproj.GenerateResource.Cache
+D:\koodit\portscanner\Portscanner gui\obj\Debug\Portscanner gui.exe
+D:\koodit\portscanner\Portscanner gui\obj\Debug\Portscanner gui.pdb

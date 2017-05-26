@@ -1,0 +1,6 @@
+D:\koodit\portscanner\portscanner\bin\Debug\portscanner.exe.config
+D:\koodit\portscanner\portscanner\bin\Debug\portscanner.exe
+D:\koodit\portscanner\portscanner\bin\Debug\portscanner.pdb
+D:\koodit\portscanner\portscanner\obj\Debug\portscanner.csprojResolveAssemblyReference.cache
+D:\koodit\portscanner\portscanner\obj\Debug\portscanner.exe
+D:\koodit\portscanner\portscanner\obj\Debug\portscanner.pdb
