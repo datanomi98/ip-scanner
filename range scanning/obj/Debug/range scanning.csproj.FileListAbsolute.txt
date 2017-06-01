@@ -4,3 +4,7 @@ D:\koodit\portscanner\range scanning\bin\Debug\range scanning.pdb
 D:\koodit\portscanner\range scanning\obj\Debug\range scanning.csprojResolveAssemblyReference.cache
 D:\koodit\portscanner\range scanning\obj\Debug\range scanning.exe
 D:\koodit\portscanner\range scanning\obj\Debug\range scanning.pdb
+D:\koodit\portscanner\range scanning\bin\Debug\range scanning.exe.manifest
+D:\koodit\portscanner\range scanning\bin\Debug\range scanning.application
+D:\koodit\portscanner\range scanning\obj\Debug\range scanning.exe.manifest
+D:\koodit\portscanner\range scanning\obj\Debug\range scanning.application

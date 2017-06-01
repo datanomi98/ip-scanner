@@ -166,6 +166,10 @@ namespace range_scanning
                         Console.WriteLine("\n");
                         sendAsyncPingPacket(address);
                     }
+                    else if(reply.Status == IPStatus.Success)
+                    {
+                        scan();
+                    }
                     else
                     {
                         
@@ -217,7 +221,8 @@ namespace range_scanning
         }
         private static void scan()
         {
-            Console.WriteLine(ipLong);
+            //Console.WriteLine(ipLong);
+            Console.WriteLine("\n");
             string address = Program.ToAddr(ipLong);
             Program.sendAsyncPingPacket(address);
             ipLong++;
