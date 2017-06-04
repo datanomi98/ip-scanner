@@ -38,6 +38,8 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.portScannerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.button1 = new System.Windows.Forms.Button();
+            this.succscan = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.ip)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -45,9 +47,9 @@
             // ip
             // 
             this.ip.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.ip.Location = new System.Drawing.Point(24, 107);
+            this.ip.Location = new System.Drawing.Point(25, 132);
             this.ip.Name = "ip";
-            this.ip.Size = new System.Drawing.Size(470, 309);
+            this.ip.Size = new System.Drawing.Size(531, 298);
             this.ip.TabIndex = 0;
             // 
             // textBox1
@@ -56,7 +58,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(220, 20);
             this.textBox1.TabIndex = 1;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
@@ -66,13 +67,12 @@
             this.label1.Size = new System.Drawing.Size(82, 13);
             this.label1.TabIndex = 2;
             this.label1.Text = "Start IP address";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(549, 107);
+            this.richTextBox1.Location = new System.Drawing.Point(587, 132);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(341, 309);
+            this.richTextBox1.Size = new System.Drawing.Size(294, 298);
             this.richTextBox1.TabIndex = 7;
             this.richTextBox1.Text = "";
             // 
@@ -116,12 +116,33 @@
             this.button1.TabIndex = 11;
             this.button1.Text = "Scan";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // succscan
+            // 
+            this.succscan.AutoSize = true;
+            this.succscan.Location = new System.Drawing.Point(51, 113);
+            this.succscan.Name = "succscan";
+            this.succscan.Size = new System.Drawing.Size(56, 13);
+            this.succscan.TabIndex = 12;
+            this.succscan.Text = "Succesfull";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(584, 113);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(35, 13);
+            this.label3.TabIndex = 13;
+            this.label3.Text = "Failed";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(902, 452);
+            this.ClientSize = new System.Drawing.Size(902, 476);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.succscan);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox2);
@@ -154,6 +175,8 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem portScannerToolStripMenuItem;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label succscan;
+        private System.Windows.Forms.Label label3;
     }
 }
 

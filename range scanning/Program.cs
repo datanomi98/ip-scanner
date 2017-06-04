@@ -11,6 +11,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
+
 namespace range_scanning
 {
     class Program
@@ -78,6 +79,7 @@ namespace range_scanning
             catch (PingException pe)
             {
                 Console.WriteLine("INVALID IP ADDRESS FOUND");
+                Console.WriteLine(pe.Message);
                 Console.ReadLine();
             }
             catch (Exception ex)
@@ -123,6 +125,7 @@ namespace range_scanning
             catch (PingException pe)
             {
                 Console.WriteLine("INVALID IP ADDRESS");
+                Console.WriteLine(pe.Message);
             }
             catch (Exception ex)
             {
@@ -250,11 +253,11 @@ namespace range_scanning
                 Console.ReadLine();
             }
         }
-       
         private static void getDeviceList()
         {
 
         }
+       
     }
 }
 

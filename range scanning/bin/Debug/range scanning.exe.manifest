@@ -42,6 +42,18 @@
     </dependentAssembly>
   </dependency>
   <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NSpeedTest.dll" size="26624">
+      <assemblyIdentity name="NSpeedTest" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>r6vOJ9WFi8f25mfRxc6KJwlJXbqHbbXYpjbIba7wjNY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="range scanning.exe" size="9704">
       <assemblyIdentity name="range scanning" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -49,17 +61,17 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>KhKQnpGzdJ3LvQjTS3avM7AMUYeFOKkg2CnmULzGWnQ=</dsig:DigestValue>
+        <dsig:DigestValue>Vfeah3voIElg3ukMVBV2RH9r6aGas6JlrtuBnB/xikc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="range scanning.exe.config" size="189">
+  <file name="range scanning.exe.config" size="186">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+      <dsig:DigestValue>y68q6VsRMwJsWKtjYq8vf7Khhx161YuHvXMTdZgijZs=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
