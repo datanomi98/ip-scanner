@@ -12,10 +12,6 @@ namespace portscanner
 {
     class Program
     {
-       
-           
-
-
             static bool stop = false;
             static int startPort;
             static int endPort;
